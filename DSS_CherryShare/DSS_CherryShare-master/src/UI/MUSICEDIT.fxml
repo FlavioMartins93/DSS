@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="563.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MUSICEDITController">
+    <children>
+        <ImageView fx:id="music_back" fitHeight="563.0" fitWidth="964.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../DESIGN_ASSETS/MUSIC_EDIT.jpg" />
+            </image>
+        </ImageView>
+        <Button fx:id="logout" layoutX="9.0" layoutY="508.0" mnemonicParsing="false" opacity="0.0" text="Button" />
+        <Button fx:id="settings" layoutX="9.0" layoutY="294.0" mnemonicParsing="false" opacity="0.0" text="Button" />
+        <Button fx:id="playlists" layoutX="9.0" layoutY="252.0" mnemonicParsing="false" opacity="0.0" text="Button" />
+        <Button fx:id="friends" layoutX="9.0" layoutY="209.0" mnemonicParsing="false" opacity="0.0" text="Button" />
+        <Button fx:id="videos" layoutX="10.0" layoutY="165.0" mnemonicParsing="false" opacity="0.0" text="Button" />
+        <Button fx:id="musicbtn" layoutX="10.0" layoutY="121.0" mnemonicParsing="false" opacity="0.0" text="Button" />
+        <TextField fx:id="title" layoutX="110.0" layoutY="165.0" prefHeight="26.0" prefWidth="284.0" />
+        <TextField fx:id="author" layoutX="110.0" layoutY="257.0" prefHeight="26.0" prefWidth="284.0" />
+        <TextField fx:id="album" layoutX="110.0" layoutY="352.0" prefHeight="26.0" prefWidth="284.0" />
+        <TextField fx:id="genre" layoutX="110.0" layoutY="447.0" prefHeight="26.0" prefWidth="284.0" />
+        <Button fx:id="save" layoutX="269.0" layoutY="41.0" mnemonicParsing="false" opacity="0.0" prefHeight="47.0" prefWidth="115.0" />
+
+    </children>
+</AnchorPane>
